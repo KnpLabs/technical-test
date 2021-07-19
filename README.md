@@ -12,7 +12,7 @@ knpFunction(int, array_of_int)  -> int
 
 Here is the Test::Unit code. The tests assume that array indices start at zero. You’ll probably have to do a couple of global search-and-replaces to make this compile in your language of choice (unless your enlightened choice happens to be Ruby).
 
-```bash
+```ruby
 def test_knpFunction
   assert_equal(-1, knpFunction(3, []))
   assert_equal(-1, knpFunction(3, [1]))
@@ -42,7 +42,7 @@ end
 
 Write unit tests you seem necessary for this particular function :
 
-```bash
+```javascript
   const italianGuy = (number) => {
     let n1 = 0
     let n2 = 1
