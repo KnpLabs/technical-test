@@ -1,4 +1,6 @@
-# Technical-test
+# Technical test
+
+The goal of these exercises is to allow a reflexion about choosen solutions and to discuss between us during the technical interview. There is not only ONE correct solution.
 
 ## First exercise
 
@@ -37,3 +39,21 @@ end
 ```
 
 ## Second exercise
+
+Write unit tests you seem necessary for this particular function :
+
+```bash
+  const italianGuy = (number) => {
+    let n1 = 0
+    let n2 = 1
+    let somme = 0
+
+    for (let i = 2; i <= number; i++){
+      somme = n1 + n2
+      n1 = n2
+      n2 = somme
+    }
+
+    return number ? n2 : n1
+  }
+```
